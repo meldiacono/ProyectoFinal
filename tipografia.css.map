@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,aAAa",
+    "sources": [
+        "tipografia.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "tipografia.css"
+}

@@ -1,0 +1,27 @@
+@import "./variables";
+
+/*SASS INDEX*/
+.welcome2{
+    background-color: white;
+    padding: 2.5rem 2.8rem;
+    &__ef{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    &__img{
+        border-radius: 10%;
+    width: 9.3rem;
+    height: 9.3rem;
+    padding-bottom: 0.5rem;
+    margin-left: 1.7rem;
+     flex-wrap: wrap;
+    }
+    &__h3{
+        font-family: $p-font;
+        color: black;
+        padding: 1rem 1.4rem;
+        margin-top: 2rem; 
+        @include font-size(1.2rem, 4rem)
+    }
+}

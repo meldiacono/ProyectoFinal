@@ -1,0 +1,25 @@
+@import "./variables";
+@import "./responsive";
+
+@mixin footer{
+    font-size: 1rem;
+    font-family: $p-font;
+}
+
+@mixin nosotros__p {
+    font-family: $p-font;
+        font-size: 1.5rem;
+        color: $p-color;
+        align-items: center;
+        margin-top: 1rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-bottom: 2rem; 
+}
+
+@mixin slider{
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}

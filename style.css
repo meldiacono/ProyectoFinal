@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*PRINCIPAL*/
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+     padding: 0.62rem 0.62rem;
+}
+.nav-link:hover{
+    color:#FBA100;
+}
+header {
+    display: flex;
+    background-color: #6C648B;
+    align-items: center;
+    max-width: 100%;
+    padding: 1.25rem;
+    flex-wrap: wrap;
+    margin: 2px 2px 2px 2px;
+    
+}
+
+#navegacion ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.8rem;
+    color: white;
+}
+
+.titulo,
+nav {
+    flex: 1 0 3.1rem;
+}
+
+.menuInicio li a {
+    width: 10rem;
+   
+}
+.nav{
+    padding-top: 1.9rem;
+    padding-left: 2rem;
+}
+.container{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+#bienvenidos{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    color: white;
+    text-align: left;
+    padding-top: 15rem;
+    padding-left: 8rem;
+    text-shadow: 3px 3px 2px black;
+}
+.welcome {
+   display: flex;
+   height: 75vh;
+    opacity: 0.8;
+    margin: 0px 2px 0px 2px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./IMAGENES/PRINCIPAL.jpeg);
+}
+
+.welcome2 {
+    background-color: white;
+    padding: 2.5rem 2.8rem;
+}
+
+.welcome2__ef{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.welcome2__img {
+    border-radius: 10%;
+    width: 9.3rem;
+    height: 9.3rem;
+    padding-bottom: 0.5rem;
+    margin-left: 1.7rem;
+     flex-wrap: wrap;
+     
+}
+
+.welcome2__h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem 1.4rem;
+    margin-top: 2rem;
+  }
+
+/*hasta aca pagina index*/
+
+/*PRODUCTOS*/
+h2 {
+    color: #FBA100;
+    font-family: 'sacramento', cursiva;
+    font-size: 4.4rem;
+    margin-left: 1.9rem;
+    font-weight: 1000;
+    text-shadow: 0.3rem 0.3rem 0.3rem #6C648B;
+}
+.subT{
+    display: grid;
+    grid-template-rows: 7rem;
+    justify-content: center;
+}
+h3 {
+    color: #6BBAA7;
+    font-family: 'sacramento', cursiva;
+    font-size: 4rem;
+    font-weight: 1000;
+}
+p{
+    font-family: 'montserrat', sans-serif;
+    color: #6C648B;
+    font-size: 1.8rem;
+    margin-top: 10rem;
+    justify-content: center;
+
+}
+.seccion{
+    display: grid;
+    grid-template-rows: 6rem;
+}
+.products {
+    display: grid;
+  grid-template-rows: 30rem;
+  grid-template-columns: 18rem 18rem 18rem 18rem;
+  justify-content: center;
+  margin-left: 2rem;
+}
+.card-title{
+    margin-top: 0.5rem;
+    padding-top: 0;
+    padding-left: 0.8rem;
+}
+.card-text{
+    font-size: 1rem;
+    margin-top: 0;
+    padding-left: 1rem;
+}
+.card{
+    height: 12rem;
+}
+#comprar{
+    font-size: 1rem;
+}
+.card-body{
+    margin-top: 0rem;
+}
+.card-body2{
+    margin-top: 1rem;
+}
+.card-body3{
+    margin-top: 0.3rem;
+}
+.btn{
+    background-color: #6C648B;
+    font-family: 'montserrat', sans-serif;
+    border-color: #6C648B;
+    margin-left: 1.8rem;
+    font-size: 1rem;
+    
+}
+.btn:hover{
+    background-color: #6BBAA7;
+    border: #6BBAA7;
+}
+
+.carousel-inner{
+    height: 25rem;
+    width: 25rem;
+    padding-left: 2rem;
+
+}
+.individual{
+    display: flex;
+    justify-content: center;
+}
+.carousel-indicators{
+    visibility: hidden;
+}
+h5{
+    padding-top: 1rem;
+    color:#FBA100;
+}
+.boton__slider{
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.carousel{
+    padding-left: 1rem;
+    margin-top: 2rem;
+    transition-duration: .1s;
+
+    }
+
+/*hasta aca seccion productos*/
+
+/*CONTACTO*/
+.tienda{
+    display: grid;
+    grid-template-rows: 35rem;
+    grid-template-columns: 40rem 30rem;
+}
+fieldset {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bold;
+    border-radius: 1vh;
+    border: 2px #6C648B solid;
+    margin-left: 1.8rem;
+    margin-right: 43.7rem;
+    padding-right: 0.62rem;
+    padding-left: 1rem;
+    display: grid;
+    padding-top: 1rem;
+    box-shadow: 0.3rem 0.2rem 0.3rem grey;
+    
+}
+input [type=text]{
+    width: 100vh;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    
+}
+ul li {
+    list-style: none;
+}
+select {
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 0.2;
+    background-color: #f1f1f1;
+    margin-top: 0.5rem;
+  }
+  .contactType{
+      padding-top: 0.5rem;
+  }
+.tienda__img {
+    border-radius: 5%;
+    margin-bottom: 3rem;
+}
+input[type=submit], input[type=reset] {
+    background-color: #6C648B;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0.2rem 0.2rem 0.3rem grey;
+ }
+ fieldset{
+     background-image: linear-gradient(to right, #B6A19E, #B6A19E, #6C648B);
+     opacity: 0.8;
+ }
+ .contacto{
+     display: grid;
+     grid-template-rows: 15rem 15rem;
+     grid-template-columns: 75rem 30rem;
+ }
+/*NOSOTROS*/
+.nosotros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nosotros__img {
+    border-radius: 10%;
+    margin: 10px;
+    
+}
+.nosotros__p{
+    font-family: 'montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #6C648B;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 2rem;
+}
+/*EVENTOS*/
+.products2{
+  display: grid;
+  grid-template-rows: 40rem;
+  grid-template-columns: 20rem 20rem 20rem;
+  justify-content: center;
+}
+
+/*PIE DE PAGINA*/
+.piePag{
+    background-image: linear-gradient(#6C648B, #B6A19E);
+    padding: 0.3rem;
+
+}
+.piePag__p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 3rem;
+    margin-top: 1rem;
+}
+.piePag__m{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+    font-size: 1rem;
+}
+hr{
+    border: 2px solid #FBA100;
+    
+}
+/*MEDIA QUERIE*/
+@media only screen and (max-width: 767px){
+    /*MEDIA QUERIE INDEX*/
+ header{
+    min-width: 150vh;
+ }
+ .menuInicio{
+     padding-left: 0.5rem;
+ }
+ .titulo{
+     padding-right: 0.2rem;
+     margin-top: 1rem;
+     padding-left: 0.5rem;
+ }
+ .nav{
+     padding-top: 0rem;
+ }
+ .welcome{
+    min-width: 150vh;
+ }
+ .welcome2{
+     padding: 1rem 0rem;
+ }
+.welcome2__ef{
+   flex-direction: row;
+   align-items: center;
+   
+}
+.welcome2__img{
+    min-width: 12.5rem;
+    
+}
+.welcome2__h3{
+    font-size: 1.5rem;
+}
+/*MEDIA QUERIE PRODUCTOS*/
+.products{
+  display: grid;
+  grid-template-rows: 30rem 30rem;
+  grid-template-columns: 20rem 20rem;
+  justify-content: center;
+  padding-left: 19rem;
+  padding-top: 1.9rem;
+}
+.subT{
+    padding-left: 25rem;
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-rows: 8rem;
+}
+
+.slider{
+    font-size: 1.1rem;
+   padding-top: 2rem;
+
+}
+.sliderMac{
+    display: grid;
+    grid-template-rows: 20rem 20rem;
+    justify-content: center;
+    padding-left: 10rem;
+    padding-bottom: 2rem;
+}
+/*MEDIA QUERIE EVENTOS*/
+.products2{
+    display: grid;
+  grid-template-rows: 40rem 38rem;
+  grid-template-columns: 20rem 20rem;
+  justify-content: center;
+  padding-left: 22rem;
+  padding-top: 1.5rem;
+  
+}
+/*MEDIA QUERIE FOOTER*/
+.piePag{
+    min-width: 150vh;
+
+}
+.piePag__p{
+    justify-content: center;
+    font-size: 1rem;
+}
+/*MEDIA QUERIE CONTACTO*/
+ .tienda{
+     display: grid;
+     grid-template-rows: 30rem 35rem;
+     grid-template-columns: 20rem;
+ }
+ }
+
+@media only screen and (width: 768px){
+   /*MEDIA QUERIE INDEX*/
+   header{
+    min-width: 150vh;
+ }
+   .nav{
+       margin-top: 0rem;
+    }
+    .titulo{
+        font-size: 5.9rem;
+        margin-top: 2rem;
+      
+    }
+    a:link{
+        font-size: 1.8rem;
+        padding: 0.3rem;
+        
+    }
+    .welcome{
+        min-width: 150vh;
+    }
+    .welcome2__h3{
+        padding-left: 0.5rem;
+    }
+    .welcome2__img{
+       margin-top: 1rem;
+       width: 9rem;
+       margin-left: 4.5rem;
+    }
+    /*media querie productos*/ 
+    .subT{
+        padding-left: 3rem;
+        display: grid;
+        grid-template-rows: 5rem;
+    }
+    .products{
+        display: grid;
+        grid-template-rows: 30rem 30rem;
+        grid-template-columns: 20rem 20rem;
+        justify-content: center;
+        padding-top: 1.9rem;
+        padding-left: 5rem;
+      }
+      .sliderMac{
+          padding-left: 2rem;
+          padding-bottom: 2rem;
+      }
+      .slider{
+        font-size: 1rem;
+        padding-left: 2rem;
+    }
+
+    /*media querie eventos*/
+    .products2{
+        display: grid;
+      grid-template-rows: 40rem 38rem;
+      grid-template-columns: 20rem 20rem;
+      justify-content: center;
+      padding-top: 1.5rem;
+      
+    }
+    /*media querie pie de pagina*/
+    .piePag{
+        min-width: 150vh;
+    }
+}
+ 
+@media only screen and (width: 1024px){
+ /*MEDIA QUERIE INDEX*/
+ header{
+    min-width: 150vh;
+ }
+ .nav{
+    padding-top: 0rem;
+}
+.titulo{
+    font-size: 5rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+}
+a:link{
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    margin-top: 2.5rem;
+    margin-right: 0.5rem;
+}
+.welcome{
+    min-width: 150vh;
+}
+.welcome2{
+    padding: 2rem 2rem;
+}
+.welcome2__img{
+    margin-left: 4rem;
+}
+.piePag{
+    min-width: 150vh;
+}
+.piePag__p{
+    padding-left: 0rem;
+}
+/*MEDIA QUERIE PRODUCTOS*/
+.products{
+    display: grid;
+    grid-template-rows: 30rem 30rem;
+    grid-template-columns: 20rem 20rem;
+    justify-content: center;
+    margin-left: 3rem;
+    padding-top: 1.9rem;
+  }
+  .slider{
+    font-size: 1rem;
+    padding-left: 2rem;
+}
+}

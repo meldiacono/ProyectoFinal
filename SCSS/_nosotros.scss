@@ -1,0 +1,17 @@
+@import "./variables";
+
+/*SASS NOSOTROS*/
+.nosotros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__img{
+        border-radius: 10%;
+        margin: 10px;
+    }
+    &__p{
+        @include nosotros__p; 
+    }
+}
+

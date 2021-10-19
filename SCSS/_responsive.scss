@@ -1,0 +1,40 @@
+@import "/variables";
+
+  /*MEDIA QUERIE INDEX*/
+  header{
+    min-width: 150vh;
+ }
+ .menuInicio{
+     padding-left: 0.5rem;
+ }
+ .titulo{
+     padding-right: 0.2rem;
+
+ }
+ .welcome{
+    min-width: 100vh;
+ }
+ .welcome2{
+    padding: 1rem 0rem;
+    &__ef{
+        flex-direction: row;
+        align-items: center;
+       }
+    &__img{
+        min-width: 7rem; 
+    }
+    &__h3{
+        font-size: 1.2rem;
+    }
+    }
+/*MEDIA QUERIE FOOTER*/    
+.piePag{
+    min-width: 100vh;
+    &__p{
+        padding-left: 17rem;
+    }
+}
+
+
+
+

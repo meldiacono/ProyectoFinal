@@ -1,0 +1,15 @@
+@import "./variables";
+
+/*SASS PIE DE PAGINA*/
+.piePag{
+    background-image: $Footer-Background;
+    padding: 0.6rem;
+    &__p{
+        color: white;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        padding-left: 28rem;
+        font-family: $p-font;  
+    }
+    @include footer;
+}
